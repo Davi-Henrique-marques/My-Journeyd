@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+background: radial-gradient(circle at top right, rgba(0, 107, 54, 0.8) 0%,   rgba(0, 0, 0, 0.9) 50%);
+overflow-x: hidden;
+}
+
+header{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+    height: 100%; 
+    margin-top: 10px;
+
+    font-size: 30px; 
+    font-weight: bold;
+    color: white;
+}
+
+main{
+    height: 550px;
+    width: 450px;
+
+    border-radius: 5px;
+    margin-left: 100px;
+
+    background-color: #0b1014;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+}
+
+
+.EU {
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+    margin-bottom: 20px;
+}
+
+.trageto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+#sites {
+    height: 130px;
+    width: 280px;
+
+
+    margin-left: 1118px;
+    margin-top: -400px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sites div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #111A21;
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 10px;
+
+    gap: 10px;
+    padding: 20px; 
+}
+
+
+#conquistas {
+    height: 130px;
+    width: 280px;
+
+
+    margin-left: 1118px;
+    margin-top: 50px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#conquistas div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #111A21;
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 10px;
+
+    gap: 10px;
+}

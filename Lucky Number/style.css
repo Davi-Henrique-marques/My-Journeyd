@@ -1,0 +1,82 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 23px ;
+    gap:20px
+}
+
+main input{
+    width: 50px;
+    height: 45px;
+    gap:10px;
+
+}
+
+.sorteado{
+    border-radius: 3px;
+    width: 200px;
+    height: 150px;
+    gap:5px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+
+
+}
+
+#btn {
+    background-color: white;
+    color:black;
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+
+#copiar {
+    background-color: white;
+    color:black;
+    padding: 8px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 450px;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+
+
+.sorteado {
+    color: #00c853;
+    font-weight: 900;
+    text-shadow: 0 0 15px #00c853;
+}
+
