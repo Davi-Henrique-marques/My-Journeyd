@@ -9,6 +9,11 @@ background: radial-gradient(circle at top right, rgba(0, 107, 54, 0.8) 0%,   rgb
 overflow-x: hidden;
 }
 
+html, body{
+    min-height: 100%;
+    width: 100%;
+}
+
 header{
     display: flex; 
     justify-content: center; 
@@ -99,8 +104,3 @@ main{
     gap: 10px;
 }
 
-/**
-  fazer com que o usuario quando clica no site ele seja redirecionado para o site, 
-  e quando clica na conquista ele seja redirecionado para a conquista.
-  e fazer a parte do login em outro site
-**/
